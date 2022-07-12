@@ -1,8 +1,9 @@
-node {
-	stage('Build') {
-		echo "Build"
-	}
-	stage('Test') {
-		echo "Test"
+pipeline {
+	stages{
+		stage('build'){
+			steps{
+				echo "testing"
+			}
+		}
 	}
 }
